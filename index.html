@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e5c5107da.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Визитка</title>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader__spinner"></div>
+    </div>
+
+    <div class="home">
+        <div class="home__presentation">
+            <div class="mask"></div>
+            <div class="home__presentation__content">
+                <h1>Имя Фамилия</h1>
+                <h2>Верстка сайтов любой сложности</h2>
+            </div>
+            <div class="home__presentation__social">
+                <a href="http://vk.com"><i class="fab fa-vk vk"></i></a>
+                <a href="http://telegram.com"><i class="fab fa-telegram telegram"></i></a>
+                <a href="http://mail.ru"><i class="fas fa-envelope mail"></i></a>
+                <a href="http://call.me"><i class="fas fa-phone phone"></i></a>
+            </div>
+
+        </div>
+        <div class="home__menu">
+            <div class="menu__item portfolio__button">
+                <div class="menu__item__content col-xs-11 col-xs-offset-1">
+                    <div class="col-xs-2 hidden-xs">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="col-sm-10">
+                        <span>Портфолио</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__item catalog__button">
+                <div class="menu__item__content col-xs-11 col-xs-offset-1">
+                    <div class="col-xs-2 hidden-xs">
+                        <i class="fa fa-book"></i>
+                    </div>
+                    <div class="col-sm-10">
+                        <span>Услуги</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__item about__button">
+                <div class="menu__item__content col-xs-11 col-xs-offset-1">
+                    <div class="col-xs-2 hidden-xs">
+                        <i class="fa fa-user-tie"></i>
+                    </div>
+                    <div class="col-sm-10">
+                        <span>Обо мне</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__item contacts__button">
+                <div class="menu__item__content col-xs-11 col-xs-offset-1">
+                    <div class="col-xs-2 hidden-xs">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <div class="col-sm-10">
+                        <span>Контакты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="close__button">
+        <div class="close__button__inner">
+            <div class="close__button__text">
+                Главная
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio__bg title col-md-5 col-sm-12">
+            <div class="mask"></div>
+            <div class="title__content">
+                Портфолио
+            </div>
+        </div>
+        <div class="information col-md-7 col-sm-12">
+            <div class="information__content">
+                <div class="portfolio__works">
+                    <div class="works__sort">
+                        <button class="filter active" data-filter='all'>
+                            Все
+                        </button>
+                        <button class="filter" data-filter='landing'>
+                            Landing-page
+                        </button>
+                        <button class="filter" data-filter='visitcard'>
+                            Сайт-визитка
+                        </button>
+                    </div>
+                    <div class="works__cards">
+                        <div class='col-lg-4 col-md-6 col-sm-4 col-xs-6' data-category='landing'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='landing'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='landing'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='landing'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='landing'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6" data-category='visitcard'>
+                            <div class="card">
+                                <img src="img/cardimg.jpg" alt="Коттеджи Карелии">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog">
+        <div class="catalog__bg title col-md-5 col-sm-12">
+            <div class="mask"></div>
+            <div class="title__content">
+                Услуги
+            </div>
+        </div>
+        <div class="information col-md-7 col-sm-12">
+            <div class="information__content">
+                <h1>Общие услуги</h1>
+                <div class="catalog__list">
+                    <div class="catalog__item">
+                        <div class="item__mark hidden-xs"></div>
+                        <h3 class='item__name'>Верстка</h3>
+                        <div class="subitems hidden">
+                            <div class="catalog__subitem">
+                                <div class="subitem__name">Адаптивная</div>
+                            </div>
+                            <div class="catalog__subitem">
+                                <div class="subitem__name">Семантическая</div>
+                            </div>
+                            <div class="catalog__subitem">
+                                <div class="subitem__name">Кроссбраузерная</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="item__mark hidden-xs"></div>
+                        <h3 class='item__name'>Landing page</h3>
+                        <div class="item__text hidden">
+                            Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh, sodales id lorem non, lobortis gravida ante.
+                            Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices eget, varius eu dolor. Vestibulum sed nisl imperdiet,
+                            dapibus libero Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh,
+                            sodales id lorem non, lobortis gravida ante. Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices
+                            eget, varius eu dolor. Vestibulum sed nisl imperdiet, dapibus libero
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="item__mark hidden-xs"></div>
+                        <h3 class='item__name'>Сайт-визитка</h3>
+                        <div class="item__text hidden">
+                            Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh, sodales id lorem non, lobortis gravida ante.
+                            Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices eget, varius eu dolor. Vestibulum sed nisl imperdiet,
+                            dapibus libero Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh,
+                            sodales id lorem non, lobortis gravida ante. Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices
+                            eget, varius eu dolor. Vestibulum sed nisl imperdiet, dapibus libero
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="item__mark hidden-xs"></div>
+                        <h3 class='item__name'>Правка верстки</h3>
+                        <div class="item__text hidden">
+                            Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh, sodales id lorem non, lobortis gravida ante.
+                            Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices eget, varius eu dolor. Vestibulum sed nisl imperdiet,
+                            dapibus libero Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh,
+                            sodales id lorem non, lobortis gravida ante. Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices
+                            eget, varius eu dolor. Vestibulum sed nisl imperdiet, dapibus libero
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="item__mark hidden-xs"></div>
+                        <h3 class='item__name'>Разработка дизайна сайта</h3>
+                        <div class="item__text hidden">
+                            Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh, sodales id lorem non, lobortis gravida ante.
+                            Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices eget, varius eu dolor. Vestibulum sed nisl imperdiet,
+                            dapibus libero Fusce pharetra aliquet fermentum. Donec varius eu erat at pulvinar. Praesent sodales sodales ultrices. Nullam quis laoreet turpis, ac dictum lorem. Curabitur luctus enim et bibendum faucibus. Integer nisi nibh,
+                            sodales id lorem non, lobortis gravida ante. Etiam at tortor tortor. Cras mauris enim, semper in interdum in, mattis ut risus. Morbi interdum purus vel libero semper efficitur. Fusce neque odio, malesuada sit amet ultrices
+                            eget, varius eu dolor. Vestibulum sed nisl imperdiet, dapibus libero
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about__bg title col-md-5 col-sm-12">
+            <div class="mask"></div>
+            <div class="title__content">
+                Обо мне
+            </div>
+        </div>
+        <div class="information col-md-7 col-sm-12">
+            <div class="information__content">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="contacts__bg title col-md-5 col-sm-12">
+            <div class="mask"></div>
+            <div class="title__content">
+                Контакты
+            </div>
+        </div>
+        <div class="information col-md-7 col-sm-12">
+            <div class="information__content">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
